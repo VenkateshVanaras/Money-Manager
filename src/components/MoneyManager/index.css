@@ -1,0 +1,119 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+.main-card {
+  width: 80%;
+  height: 80vh;
+}
+.name-card {
+  height: 140px;
+  padding-left: 20px;
+  border-radius: 10px;
+  padding-top: 1px;
+  background-size: cover;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-color: aqua;
+  margin-top: 0;
+  font-size: large;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.span-class {
+  color: blue;
+  margin-left: 7px;
+}
+.money-details {
+  padding-left: 0;
+  list-style-type: none;
+}
+.addTransactions-History {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .addTransactions-History {
+    flex-direction: row;
+  }
+}
+.add-transactions {
+  padding: 20px;
+  padding-left: 40px;
+  min-height: 200px;
+  width: 350px;
+  min-width: 300px;
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+}
+.history {
+  padding: 20px;
+  padding-left: 40px;
+  min-height: 200px;
+  width: 350px;
+  min-width: 300px;
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .history {
+    margin-left: 30px;
+    width: 420px;
+  }
+}
+.input {
+  height: 30px;
+  margin-top: 5px;
+  width: 200px;
+  outline: none;
+}
+.submit-button {
+  height: 35px;
+  width: 80px;
+  background-color: #0b69ff;
+  border-radius: 3px;
+  font-size: medium;
+  color: #fff;
+  margin-top: 10px;
+  border: none;
+}
+.history-unordered {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.table-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style-type: none;
+  height: 48px;
+  border: 1px solid #cbd5e1;
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .table-header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.table-header-cell {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 30%;
+  border-right: none;
+}
+@media screen and (min-width: 768px) {
+  .table-header-cell {
+    font-size: 16px;
+  }
+}

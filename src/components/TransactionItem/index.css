@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.table-list-items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style-type: none;
+  height: 48px;
+  border: 1px solid #cbd5e1;
+  border-top-width: 0px;
+}
+.list-items {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 390;
+  width: 30%;
+  border-right: none;
+}
+.button-container {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete-image {
+  height: 18px;
+}
